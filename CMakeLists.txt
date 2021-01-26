@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport
 )
 
+
 ## Me here ----------------------------
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
@@ -217,3 +218,6 @@ add_executable(udcp src/udcp.cpp)
 target_link_libraries(udcp ${catkin_LIBRARIES})
 target_link_libraries(udcp ${OpenCV_LIBS} )
 #add_dependencies(talker1 udcp)
+install(DIRECTORY launch worlds models
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+        PATTERN "*~" EXCLUDE)
