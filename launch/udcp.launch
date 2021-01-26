@@ -1,5 +1,5 @@
 <launch>
-  <!-- <node pkg="curl_project" type="udcp" name="udcp" output="screen" /> -->
-  <node pkg="curl_project" type="velocity_control.py" name="control" output="screen" />
-  <node pkg="curl_project" type="udcp" name="udcp" output="screen" />
+  <!-- <node pkg="project_iros" type="udcp" name="udcp" output="screen" /> -->
+  <node pkg="project_iros" type="velocity_control.py" name="control" output="screen" />
+  <node pkg="project_iros" type="udcp" name="udcp" output="screen" />
 </launch>
