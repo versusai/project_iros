@@ -1,0 +1,3 @@
+/root/catkin_ws/src/curl_project/src/test/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/src/curl_project/src/test/CMakeFiles/test.dir
+/root/catkin_ws/src/curl_project/src/test/CMakeFiles/edit_cache.dir
