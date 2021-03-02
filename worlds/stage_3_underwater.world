@@ -15,10 +15,10 @@
       </sky>
       <shadows>1</shadows>
       <fog>
-        <color>1.5 0.2 0.3 1.0</color>
+        <color>0.2 0.3 0.8 1.0</color>
         <type>linear</type>
-        <density>50.5</density>
-        <start>10</start>
+        <density>1.0</density>
+        <start>1</start>
         <end>40</end>
       </fog>
     </scene>
@@ -32,7 +32,7 @@
     <!-- Global light source -->
     <light type="directional" name="sun_diffuse_1">
       <pose>-200 -200 100 0 0 0</pose>
-      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <diffuse>0.2 0.3 0.8 1.0</diffuse>
       <specular>0 0 0 1</specular>
       <direction>-0.3 -0.3 -1</direction>
       <cast_shadows>true</cast_shadows>
@@ -40,7 +40,7 @@
 
     <light type="directional" name="sun_diffuse_2">
       <pose>-100 50 200 0 0 0</pose>
-      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <diffuse>0.2 0.3 0.8 1.0</diffuse>
       <specular>0 0 0 1</specular>
       <direction>-0.3 -0.3 -1</direction>
       <cast_shadows>true</cast_shadows>
@@ -48,8 +48,8 @@
 
     <light type="directional" name="sun_diffuse_3">
       <pose>-150 -130 50 0 0 0</pose>
-      <diffuse>0.6 0.6 0.6 1</diffuse>
-      <specular>0.2 0.2 0.2 1</specular>
+      <diffuse>0.2 0.3 0.8 1.0</diffuse>
+      <specular>0.2 0.3 0.8 1.0</specular>
       <direction>0.5 0.5 -1</direction>
       <cast_shadows>true</cast_shadows>
     </light>
